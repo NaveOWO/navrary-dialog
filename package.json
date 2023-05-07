@@ -1,24 +1,13 @@
 {
   "name": "navrary-modal",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "browser": "./browser/specific/main.js",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.26",
-    "@types/react": "^18.2.6",
-    "@types/react-dom": "^18.2.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "styled-components": "^5.3.10",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "react-dom": "^18.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -46,7 +35,7 @@
     ]
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "author": "",
+  "author": "nave",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -57,6 +46,21 @@
   },
   "homepage": "https://github.com/NaveOWO/navrary-dialog#readme",
   "devDependencies": {
-    "@types/styled-components": "^5.1.26"
-  }
+    "@types/styled-components": "^5.1.26",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.26",
+    "@types/react": "^18.2.6",
+    "@types/react-dom": "^18.2.4",
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.10",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
+  },
+  "keywords": [
+    "react-modal",
+    "modal"
+  ]
 }
